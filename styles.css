@@ -762,7 +762,7 @@ hr {
 .two-part-section{
     display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px;
   width:70%;
 
