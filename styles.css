@@ -98,7 +98,7 @@
 /* Default styles for navigation links */
 .nav-links {
   display: flex;
-  justify-content: center; /* Center the links horizontally */
+  justify-content:bottom; /* Center the links horizontally */
     margin-bottom:5px;
 }
 .nav-links01 {
