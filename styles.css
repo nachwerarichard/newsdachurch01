@@ -216,7 +216,7 @@
 }
 .close-button {
     position: absolute;
-    top: 30px;
+    top: 100px;
     left: 0px;
     background: none;
     border: none;
@@ -362,7 +362,7 @@
         width: 10%; /* Adjust width for smaller devices */
     }
     .aside img{
-        width:100%;
+        width:10%;
         height:auto;
     }
 }
