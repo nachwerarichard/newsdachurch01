@@ -132,6 +132,9 @@
       align-items:center;
       margin-left:10px;
   }
+    .nav{
+        width:100%;
+    }
   .logo-and-head {
     display: block; /* Hide the navigation links on smaller screens */
     align-items:center;
