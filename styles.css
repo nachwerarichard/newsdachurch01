@@ -24,6 +24,8 @@
     align-items: center;
     width:90%;
     height:200px;
+    min-width: 375px;
+
     
 }
 /* Show the navigation links when menu icon is clicked */
@@ -132,9 +134,7 @@
       align-items:center;
       margin-left:10px;
   }
-    .nav{
-        width:100%;
-    }
+
   .logo-and-head {
     display: block; /* Hide the navigation links on smaller screens */
     align-items:center;
@@ -394,7 +394,7 @@
   }
   @media screen and (max-width: 768px) {
     .carousel-container {
-      width:90%;
+      width:100%;
     }
     
   }
