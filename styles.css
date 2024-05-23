@@ -353,7 +353,7 @@
 .aside img {
     width: 100%; /* Make the logo image responsive */
     max-width: 120px; /* Set a maximum width for the logo */
-    min-width:30px;
+    min-width:40px;
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px;
     transition: filter 0.1s ease; /* Quick transition for filter effect */
@@ -788,12 +788,12 @@ hr {
 
 .left-part {
   flex: 1; /* Left part takes 50% of the space */
-  padding: 20px;
+
 }
 
 .right-part {
   flex: 1; /* Right part takes 50% of the space */
-  padding: 20px;
+  
   display: flex;
   justify-content: center; /* Center the card horizontally */
   align-items: center; /* Center the card vertically */
@@ -801,7 +801,7 @@ hr {
 
 .card05 {
   width: 300px; /* Adjust card width as needed */
-  border: 1px solid #ccc;
+  
   border-radius: 5px;
   overflow: hidden; /* Ensure content does not overflow */
    /* Remove any residual whitespace */
