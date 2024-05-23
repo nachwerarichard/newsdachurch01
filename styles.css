@@ -356,7 +356,6 @@
     padding: 1em;
     text-align: center;
     transition: background-color 1.5s ease; /* Transition for background color */
-    min-width: 375px;
 
 }
 .aside img {
