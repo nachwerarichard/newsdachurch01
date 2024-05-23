@@ -566,7 +566,7 @@
   justify-content: space-around;
   padding: 20px;
   width:85%;
- min-width: 350px;
+ min-width: 330px;
 
 }
 /* Default styles for card section */
@@ -721,7 +721,7 @@ hr {
   text-align: center; /* Center the card horizontally */
   padding: 20px;
   width:90%;
- min-width: 350px;
+ min-width: 330px;
 
 }
 
@@ -776,7 +776,7 @@ hr {
   justify-content: center;
   padding: 20px;
   width:70%;
-        min-width: 350px;
+        min-width: 330px;
 
 
 }
