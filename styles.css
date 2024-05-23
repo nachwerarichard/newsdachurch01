@@ -99,13 +99,14 @@
 .nav-links {
   display: flex;
   justify-content: center; /* Center the links horizontally */
+    margin-bottom:5px;
 }
 .nav-links01 {
   display: none;
   justify-content:right;
   width:35%;
   right:0;
-  margin-top: 0px; /* Center the links horizontally */
+  margin-top: 5px; /* Center the links horizontally */
 }
 .menu{
   bottom: 0 ;
