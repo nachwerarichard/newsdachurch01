@@ -353,7 +353,7 @@
 .aside img {
     width: 100%; /* Make the logo image responsive */
     max-width: 120px; /* Set a maximum width for the logo */
-    min-width:40px;
+    min-width:30px;
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px;
     transition: filter 0.1s ease; /* Quick transition for filter effect */
