@@ -216,7 +216,7 @@
 }
 .close-button {
     position: absolute;
-    top: 0px;
+    top: 30px;
     left: 0px;
     background: none;
     border: none;
@@ -360,6 +360,10 @@
 @media (max-width: 768px) {
     .aside {
         width: 10%; /* Adjust width for smaller devices */
+    }
+    .aside img{
+        width:100%;
+        height:auto;
     }
 }
 
@@ -769,15 +773,15 @@ hr {
     
   .two-part-section {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
   .left-part{
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
   .right-part{
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 }
 
