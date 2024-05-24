@@ -889,9 +889,7 @@ background-color:grey;
   height: auto; 
   display: flex;/* Maintain aspect ratio */
 }
-main {
-  padding: 40px;
-}
+
 
 .project-description {
   margin-bottom: 30px;
@@ -1034,7 +1032,7 @@ main {
       }
   }
   .accordion-container {
-    width: 100%;
+    width: 93%;
     max-width: 100%;
     margin: 0 auto;
     margin-top:100px;
