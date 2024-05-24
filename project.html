@@ -91,7 +91,16 @@
                 <p>Help us make a difference. Your generous donation will directly support the building of the church</p><br>
                 <a href="[Insert donation link here]" class="donate-button">Donate Now</a>
             </section>
-        
+           <script>
+  function setAsideHeight() {
+    const asideElement = document.querySelector('aside');
+    const windowHeight = window.innerHeight;
+    asideElement.style.height = windowHeight + 'px';
+  }
+
+  window.addEventListener('resize', setAsideHeight);
+  setWindowHeight(); // Call on initial load
+</script> 
       
       <script >
         document.addEventListener("DOMContentLoaded", function() {
