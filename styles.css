@@ -349,15 +349,9 @@
   .menu-icon {
      display: block;
       font-size: small; 
-      width:30%;/* Show the overlay on smaller devices */
+      width:15%;/* Show the overlay on smaller devices */
   
 }
-@media only screen and (min-width: 375px) and (max-width: 768px) {
-    .menu-icon{
-         display: block;
-      font-size: small; 
-      width:20%;
-        }
 }
   .overlay.overlay-content.social{
     font-size: small;
