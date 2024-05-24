@@ -357,7 +357,7 @@
   .menu-icon {
      display: block;
       font-size: small; 
-      width:30%;/* Show the overlay on smaller devices */
+      width:40%;/* Show the overlay on smaller devices */
    }
   .overlay.overlay-content.social{
     font-size: small;
