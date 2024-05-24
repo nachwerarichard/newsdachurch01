@@ -350,12 +350,9 @@
      display: block;
       font-size: small; 
       width:15%;/* Show the overlay on smaller devices */
-  
-}
-
+   }
   .overlay.overlay-content.social{
     font-size: small;
-    
   }
   .nav-links{
     display:none;
@@ -366,7 +363,6 @@
   .logo-and-heading img{
     width:40px;
     height:40px;
-    
     left:0;
     bottom:0px;
   }
