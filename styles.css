@@ -344,13 +344,7 @@
   font-weight:bold;
   color: #003B5C;
 }
-@media screen and (max-width: 768px) {
-  .menu-icon {
-     display: block;
-      font-size: small; 
-      width:30%;/* Show the overlay on smaller devices */
-  }
-}
+
 
   .overlay.overlay-content.social{
     font-size: small;
@@ -435,7 +429,7 @@
   .carousel img {
     width: 100%;
     height: auto;
-    max-height: 600px; /* Adjust the height as needed */
+    max-height: auto; /* Adjust the height as needed */
     margin-right: 10px; 
   }
   .carousel-btn {
