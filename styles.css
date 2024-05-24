@@ -343,6 +343,7 @@
   font-size: 20px;
   font-weight:bold;
   color: #003B5C;
+    min-width:375px;
 }
 @media screen and (max-width: 768px) {
   .menu-icon {
