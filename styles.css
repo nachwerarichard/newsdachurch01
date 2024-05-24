@@ -567,7 +567,7 @@
         align-items: left; /* Center cards horizontally */
     }
       .subscribe-form input[type="email"] {
-          margin-right:20px;
+          margin-right:40px;
       }
       .footer-column{
           align-items:left;
