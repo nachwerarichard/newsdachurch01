@@ -350,7 +350,7 @@
     .menu-icon{
         display: block;
       font-size: small; 
-      width:10%;
+      width:70%;
     }
 }
 @media only screen and (min-width: 280px) and (max-width: 310px) {
