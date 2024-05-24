@@ -540,9 +540,10 @@
   .footer-column {
     flex: 1;
     margin-bottom: 20px;
-    margin-right:40px;
-    
   }
+.footer-column:last-child{
+    margin-right:50px;
+}
   .footer-column:first-child {
     flex: 2; /* Twice the size of other columns */
   }
