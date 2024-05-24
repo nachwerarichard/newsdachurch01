@@ -520,7 +520,7 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    width:90%;
+    width:91%;
     margin-top: auto;
     min-width: 375px;
   }
@@ -560,28 +560,20 @@
   @media screen and (max-width: 768px) {
     .footer-column:lastchild {
         /* Stack cards vertically on smaller screens */
-        align-items: left; /* Center cards horizontally */
+         /* Center cards horizontally */
         margin-right:20px;
     }
-  }
-    @media screen and (max-width: 768px) {
-    .footer-column {
+          .footer-column {
         flex-direction: column; /* Stack cards vertically on smaller screens */
         align-items: left; /* Center cards horizontally */
     }
   }
-  
-  
-
 .subscribe-form input[type="email"] {
-    
     border: 1px solid #ccc;
     border-radius: 5px ;
     padding-right: 10px;
     margin-bottom: 10px;
-    
 }
-
 .subscribe-form button {
     padding: 10px;
     background-color: #4CAF50;
@@ -591,7 +583,6 @@
     cursor: pointer;
     /* Adjust width as needed */
 }
-
 .subscribe-form button:hover {
     background-color: #45a049;
 }
@@ -616,8 +607,6 @@
       align-items: center; /* Center cards horizontally */
   }
 }
-
-
 .card {
   width: 30%;
   background-color: #f9f9f9;
@@ -625,9 +614,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-
-
-
 /* Media query for screens smaller than 768px (typical mobile devices) */
 @media screen and (max-width: 768px) {
   .card {
