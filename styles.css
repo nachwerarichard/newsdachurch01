@@ -345,19 +345,27 @@
   font-weight:bold;
   color: #003B5C;
 }
-@media only screen and (min-width: 375.1px) and (max-width: 768px) {
+@media only screen and (min-width: 375.1px) and (max-width: 499.9px) {
   /* CSS styles for medium devices go here */
     .menu-icon{
         display: block;
       font-size: small; 
-      width:20%;
+      width:40%;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  /* CSS styles for medium devices go here */
+    .menu-icon{
+        display: block;
+      font-size: small; 
+      width:40%;
     }
 }
 @media screen and (max-width: 375px) {
   .menu-icon {
      display: block;
       font-size: small; 
-      width:10%;/* Show the overlay on smaller devices */
+      width:20%;/* Show the overlay on smaller devices */
    }
   .overlay.overlay-content.social{
     font-size: small;
