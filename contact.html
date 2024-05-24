@@ -99,6 +99,16 @@
         <aside class="aside" id="myAside">
           <img id="logoImage" src="logo5.png" alt="Logo" class="logo" />
         </aside>
+            <script>
+  function setAsideHeight() {
+    const asideElement = document.querySelector('aside');
+    const windowHeight = window.innerHeight;
+    asideElement.style.height = windowHeight + 'px';
+  }
+
+  window.addEventListener('resize', setAsideHeight);
+  setWindowHeight(); // Call on initial load
+</script>
           <script>
             
         document.addEventListener("DOMContentLoaded", function() {
