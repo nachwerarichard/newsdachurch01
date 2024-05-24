@@ -572,12 +572,11 @@
   
 
 .subscribe-form input[type="email"] {
-    
     border: 1px solid #ccc;
     border-radius: 5px ;
     padding-right: 10px;
     margin-bottom: 10px;
-    
+    margin-right:10px;
 }
 
 .subscribe-form button {
