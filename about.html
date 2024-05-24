@@ -151,7 +151,16 @@
          
    
         </div>
-        
+            <script>
+  function setAsideHeight() {
+    const asideElement = document.querySelector('aside');
+    const windowHeight = window.innerHeight;
+    asideElement.style.height = windowHeight + 'px';
+  }
+
+  window.addEventListener('resize', setAsideHeight);
+  setWindowHeight(); // Call on initial load
+</script>
         <script >
           document.addEventListener("DOMContentLoaded", function() {
       const menuIcon = document.getElementById("menu-icon");
