@@ -23,7 +23,7 @@
     justify-content: space-between; /* Align items to the left and right */
     align-items: center;
     width:90%;
-    height:250px;
+    height:auto;
     min-width: 375px;
     
 
@@ -228,7 +228,7 @@
         display: none; /* Show the overlay on smaller devices */
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1255px) {
+  @media screen and (min-width: 768.1px) and (max-width: 1255px) {
   .nav {
     flex-direction: column;
     margin-bottom: 100px;
@@ -343,14 +343,20 @@
   font-size: 20px;
   font-weight:bold;
   color: #003B5C;
-    min-width:375px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .menu-icon {
-      display: block;
+     display: block;
       font-size: small; 
-      width:40%;/* Show the overlay on smaller devices */
+      width:12%;/* Show the overlay on smaller devices */
   }
+@media only screen and (max-width: 376px) and (min-width: 768px) {
+    .menu-icon{
+         display: block;
+      font-size: small; 
+      width:20%;
+        }
+}
   .overlay.overlay-content.social{
     font-size: small;
     
@@ -415,7 +421,7 @@
  
 
   .carousel-container {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
     margin-right:0;
     position: relative;
@@ -456,11 +462,10 @@
   }
    /* New styles for the section */
    .section-container001 {
-    text-align: left;
+    text-align: center;
     margin-top: 50px; /* Adjust as needed */
     width:80%;
-    margin-left:50px;
-    margin-right:50px;
+    justify-content:center;
     min-width: 330px;
   }
   @media screen and (max-width: 768px) {
@@ -520,7 +525,7 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    width:91%;
+    width:90%;
     margin-top: auto;
     min-width: 375px;
   }
@@ -541,7 +546,6 @@
   .footer-column:first-child {
     flex: 2; /* Twice the size of other columns */
   }
-
   .footer-column h4 {
     margin-top: 0;
   }
@@ -558,17 +562,23 @@
    
   }
   @media screen and (max-width: 768px) {
-          .footer-column {
+    .footer-columns {
         flex-direction: column; /* Stack cards vertically on smaller screens */
-        align-items: left; /* Center cards horizontally */
+        align-items: center; /* Center cards horizontally */
     }
   }
+  
+  
+  
+
 .subscribe-form input[type="email"] {
     border: 1px solid #ccc;
     border-radius: 5px ;
     padding-right: 10px;
     margin-bottom: 10px;
+    margin-right:10px;
 }
+
 .subscribe-form button {
     padding: 10px;
     background-color: #4CAF50;
@@ -578,6 +588,7 @@
     cursor: pointer;
     /* Adjust width as needed */
 }
+
 .subscribe-form button:hover {
     background-color: #45a049;
 }
@@ -602,6 +613,8 @@
       align-items: center; /* Center cards horizontally */
   }
 }
+
+
 .card {
   width: 30%;
   background-color: #f9f9f9;
@@ -609,6 +622,9 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
+
+
+
 /* Media query for screens smaller than 768px (typical mobile devices) */
 @media screen and (max-width: 768px) {
   .card {
@@ -737,9 +753,10 @@ hr {
 .one-card-section {
   text-align: center; /* Center the card horizontally */
   padding: 20px;
-  width:92%;
+  width:93%;
  min-width: 330px;
-    background-color:grey;
+background-color:grey;
+    color:white;
 
 }
 
@@ -870,9 +887,7 @@ hr {
   height: auto; 
   display: flex;/* Maintain aspect ratio */
 }
-main {
-  padding: 40px;
-}
+
 
 .project-description {
   margin-bottom: 30px;
@@ -1015,8 +1030,8 @@ main {
       }
   }
   .accordion-container {
-    width: 80%;
-    max-width: auto;
+    width: 93%;
+    max-width: 100%;
     margin: 0 auto;
     margin-top:100px;
     margin-bottom: 100px;
@@ -1064,4 +1079,25 @@ main {
 
 .accordion-button.active .arrow {
     transform: rotate(90deg);
+}
+@media (max-width: 768px) {
+    .accordion-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        min-width: auto;
+        padding: 0 10px;
+    }
+    
+    .accordion-button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .accordion-content {
+        padding: 0 10px;
+    }
+    
+    .accordion-content p {
+        margin: 10px 0;
+    }
 }
