@@ -755,8 +755,9 @@ hr {
 .one-card-section {
   text-align: center; /* Center the card horizontally */
   padding: 20px;
-  width:90%;
+  width:92%;
  min-width: 330px;
+    background-color:grey;
 
 }
 
@@ -1032,8 +1033,8 @@ main {
       }
   }
   .accordion-container {
-    width: 100%;
-    max-width: 600px;
+    width: 80%;
+    max-width: auto;
     margin: 0 auto;
     margin-top:100px;
     margin-bottom: 100px;
