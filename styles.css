@@ -348,7 +348,7 @@
   .menu-icon {
       display: block;
       font-size: small; 
-      width:15%;/* Show the overlay on smaller devices */
+      width:10%;/* Show the overlay on smaller devices */
   }
   .overlay.overlay-content.social{
     font-size: small;
@@ -751,6 +751,7 @@ hr {
   width:90%;
  min-width: 330px;
 background-color:grey;
+    color:white;
 
 }
 
