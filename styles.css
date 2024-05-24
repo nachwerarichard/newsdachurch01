@@ -348,7 +348,7 @@
   .menu-icon {
      display: block;
       font-size: small; 
-      width:12%;/* Show the overlay on smaller devices */
+      width:20%;/* Show the overlay on smaller devices */
   }
 @media only screen and (min-width: 375px) and (max-width: 768px) {
     .menu-icon{
