@@ -345,54 +345,14 @@
   font-weight:bold;
   color: #003B5C;
 }
-@media only screen and (max-width: 250px) {
-  /* CSS styles for medium devices go here */
-    .menu-icon{
-        display:block;
-      font-size: small; 
-        width:20%;
-    }
+
+@media only screen and (max-width: 540px) {
+  .menu-icon {
+    display: block;
+    font-size: small;
+  }
 }
-@media only screen and (max-width: 250px) and (max-width:280px) {
-  /* CSS styles for medium devices go here */
-    .menu-icon{
-        display: block;
-      font-size: small; 
-      width:10%;
-    }
-}
-@media only screen and (min-width: 280px) and (max-width: 310px) {
-  /* CSS styles for medium devices go here */
-    .menu-icon{
-        display: block;
-      font-size: small; 
-      width:40%;
-    }
-}
-@media only screen and (min-width: 310px) and (max-width: 350px) {
-  /* CSS styles for medium devices go here */
-    .menu-icon{
-        display: block;
-      font-size: small; 
-      width:30%;
-    }
-}
-@media only screen and (min-width: 350px) and (max-width: 375px) {
-  /* CSS styles for medium devices go here */
-    .menu-icon{
-        display: block;
-      font-size: small; 
-      width:40%;
-    }
-}
-@media only screen and (min-width: 375px) and (max-width: 540px) {
-  /* CSS styles for medium devices go here */
-    .menu-icon{
-        display: block;
-      font-size: small; 
-      width:40%;
-    }
-}
+
 @media only screen and (min-width: 540px) and (max-width: 768px) {
   /* CSS styles for medium devices go here */
     .menu-icon{
