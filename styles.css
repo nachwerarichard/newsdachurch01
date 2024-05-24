@@ -46,6 +46,7 @@
     background-color: #003B5C;
     margin-left:30px;
     box-shadow: 5px 5px 5px #333333; /* dark grey */
+    min-height: fit-content;
     
 }
 .logo-and-head {
@@ -322,7 +323,7 @@
   .menu-icon {
       display: block;
       font-size: small; 
-      width:20%;/* Show the overlay on smaller devices */
+      width:40%;/* Show the overlay on smaller devices */
   }
   .overlay.overlay-content.social{
     font-size: small;
@@ -434,6 +435,7 @@
     width:80%;
     margin-left:50px;
     margin-right:50px;
+    min-width: 330px;
   }
   @media screen and (max-width: 768px) {
     .section-container001 {
@@ -628,6 +630,7 @@
   width:80%;
   padding: 20px;
   margin-top: 50px;
+  min-width: 330px;
 }
 
 /* Default styles for card section */
@@ -1001,6 +1004,7 @@ main {
     margin-bottom: 100px;
     background-color:whitesmoke;
     border-radius:10px;
+    min-width: 330px;
 }
 
 .accordion-button {
