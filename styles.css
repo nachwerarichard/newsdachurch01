@@ -540,7 +540,7 @@
   .footer-column {
     flex: 1;
     margin-bottom: 20px;
-    
+    margin-right:40px;
     
   }
   .footer-column:first-child {
@@ -567,7 +567,7 @@
         align-items: left; /* Center cards horizontally */
     }
       .subscribe-form input[type="email"] {
-          margin-right:40px;
+          margin-right:10px;
       }
       .footer-column{
           align-items:left;
