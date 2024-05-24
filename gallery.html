@@ -1,0 +1,216 @@
+<html>
+    <header>
+    <link rel="stylesheet" href="styles.css"/>
+    <script type="text/javascript" src="script01.js"></script>
+    <link rel="stylesheet" href="all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXGEL0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventh-day Adventist Church Mbale Central</title>
+    <link rel="icon" type="image/ico" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.adventist.org/alps/3/latest/css/main.css" media="all">
+<script src="//cdn.adventist.org/alps/3/latest/js/head-script.min.js" type="text/javascript"></script>
+    </header>
+    <body>
+        <nav class="nav">
+            <div class="logo-and-heading">
+              <img src="logo5.png" alt="Logo" class="logo" />
+              <h1 class="heading">Seventh-day Adventist Church<br> Mbale Central</h1>
+              
+            </div>
+            
+            <div class="social-links">
+                <a href="">English▾</a>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instagram</a>
+            </div>
+            <div class="nav-links"> 
+               <ul>
+                <li><a href="home.html" >Home▾</a></li>
+                <li><a href="about.html">Our Church▾</a></li>
+                <li><a href="contact.html"  >Contact Us▾</a></li>
+                <li><a href="project.html">Projects▾</a></li>
+                <li><a href="gallery.html" class="active">Gallery▾</a></li>
+    
+              </ul>
+            </div>
+            <div class= "nav-links01">
+              <div class="menu-icon" id="menu-icon">&#9776;MENU
+              </div>
+            </div>
+            
+          </nav>
+          <div class="overlay" id="overlay">
+            <div class="overlay-content">
+                <div class="logo-container">
+                    <img src="logo5.png" alt="Logo">
+                    <span class="logo-text">Seventh-day Adventist Church Mbale Central</span>
+                </div>
+                <a href="home.html" >Home▾</a>
+                <a href="about.html" >Our Church▾</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="project.html">Projects▾</a>
+                <a href="gallery.html" class="active">Gallery▾</a>
+                <a style="font-size: small;"href="">English▾</a>
+                <div class="logo-container" style="justify-content:center;">
+                <a  style="font-size: small;" href="#"><img src="fb03.png"/>Facebook</a>
+                <a style="font-size: small;"href="#"><img src="twit03.png" />twitter</a>
+                <a style="font-size: small;" href="#"><img src="inst03.png"/>Instagram</a>
+                </div>
+               
+                <!-- Add more links as needed -->
+            </div>
+            <button class="close-button" onclick="closeDiv()">X </button>
+    
+        </div>
+          
+        
+          <aside class="aside" id="myAside">
+            <img id="logoImage" src="logo5.png" alt="Logo" class="logo" />
+          </aside>
+          
+        <main>
+          <h2>Our Gallery</h2>
+            <section class="project-description">
+                
+                <div class="image-gallery">
+                    <img src="20230909_134152.jpg" alt="[Image 1 description]">
+                    <img src="20231230_112501.jpg" alt="[Image 2 description]">
+                    <img src="20230909_165555.jpg" alt="[Image 3 description]">
+                    <img src="20230909_165612.jpg" alt="[Image 1 description]">
+                    <img src="20230909_133924.jpg" alt="[Image 2 description]">
+                    <img src="20230909_134126.jpg" alt="[Image 3 description]">
+                    <img src="20230909_134225.jpg" alt="[Image 2 description]">
+                    <img src="20230909_133952.jpg" alt="[Image 3 description]">
+                    </div>
+            </section>
+            
+        </main>
+
+      <script >
+        document.addEventListener("DOMContentLoaded", function() {
+    const menuIcon = document.getElementById("menu-icon");
+    const overlay = document.getElementById("overlay");
+
+    menuIcon.addEventListener("click", function() {
+        overlay.style.display = "block";
+    });
+
+    overlay.addEventListener("click", function() {
+        overlay.style.display = "none";
+    });
+    });
+
+  </script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+          $(document).ready(function() {
+       var $aside = $('#myAside');
+       var $logo = $('#logoImage');
+       var windowHeight = $(window).height();
+       var scrolled = false;
+       var originalColor = ''; // Variable to store the original background color
+      
+       $(window).on('scroll', function() {
+           var scrollTop = $(this).scrollTop();
+           var topTenPercent = windowHeight * 0.4; // 10% of the window height
+      
+           // Check if the scroll position is within the top 10% of the window
+           if (scrollTop <= topTenPercent) {
+               var percentageInTopTen = scrollTop / topTenPercent; // Calculate the percentage within the top 10%
+      
+               // Background color change from #003B5C to #FFFFFF
+               var startColor = [0, 59, 92]; // RGB for #003B5C
+               var endColor = [255, 255, 255]; // RGB for #ffffff
+      
+               var currentColor = startColor.map(function(start, i) {
+                   return Math.round(start + (endColor[i] - start) * percentageInTopTen);
+               });
+      
+               var currentColorStr = 'rgb(' + currentColor.join(',') + ')';
+      
+               // Change logo color based on scroll position
+               if (scrollTop === 0) {
+                   $logo.css('filter', 'none'); // Reset filter to make logo white at the top
+               } else {
+                   var logoColor = 'invert(27%) sepia(94%) saturate(486%) hue-rotate(149deg) brightness(91%) contrast(91%)';
+                   var logoColorEnd = 'invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%)';
+                   var logoColorTransition = logoColor.split(' ').map((value, index) => {
+                       return value.replace(/\d+/g, (match) => {
+                           return Math.round(parseInt(match) - (parseInt(match) * percentageInTopTen));
+                       });
+                   }).join(' ');
+      
+                   $logo.css('filter', logoColorTransition);
+               }
+      
+               $aside.css('background-color', currentColorStr);
+               originalColor = currentColorStr; // Store the original background color
+           }
+      
+           if (scrollTop >50 && !scrolled) {
+               scrolled = true;
+      
+               $aside.on('mouseenter', function() {
+                   $aside.css('background-color', '#003B5C'); // Change aside background color to #003B5C on hover
+                   $logo.css('filter', 'none'); // Change logo color to white on hover
+               }).on('mouseleave', function() {
+                   $aside.css('background-color', originalColor); // Restore original background color on mouse leave
+                   $logo.css('filter', logoColorTransition); // Restore logo color on mouse leave
+               });
+           }
+       });
+      });
+       </script> 
+                    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+                    <script src="//cdn.adventist.org/alps/3/latest/js/script.min.js" type="text/javascript"></script>
+                
+  
+                  
+      </body>
+          
+    </body>
+    <footer class="footer">
+      <div class="footer-columns">
+        <div class="footer-column">
+            <div class="logo-and-head">
+              <img src="logo5.png" alt="Logo" class="logo" />
+            </div>
+            <div class="logo-and-head">
+              <h1 class="heading">Seventh-day Adventist <br>Church Mbale Central</h1>
+            </div>
+            <p>© 2023 SDA Church Mbale Central.</p>
+            <p>Pallisa Road. Opp Mbale City Stadium </p>
+        </div>
+        <div class="footer-column">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="home.html">Home </a></li>
+              <li><a href="about.html">Our Church </a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="project.html">Projects</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+
+
+            </ul>
+        </div>
+        <div class="footer-column">
+              <h2>Social</h2>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter </a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Tiktok</a></li>
+
+              </ul>
+        </div>
+        <div class="footer-column">
+            <h2> Newsletter</h2> <!-- New header -->
+            <div class="subscribe-form">
+            <input  type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </div>
+            <p>Join Us For Fellowship Every Tuesday In Our different Family Support Groups, and Friday for Vespers from 8:00pm - 9:00pm via our church google meet platform</p>
+        </div>
+      
+      </footer>
