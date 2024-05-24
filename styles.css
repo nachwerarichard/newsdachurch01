@@ -540,6 +540,7 @@
   .footer-column:first-child {
     flex: 2; /* Twice the size of other columns */
   }
+
   .footer-column h4 {
     margin-top: 0;
   }
@@ -556,12 +557,18 @@
    
   }
   @media screen and (max-width: 768px) {
-    .footer-columns {
-        flex-direction: column; /* Stack cards vertically on smaller screens */
-        align-items: center; /* Center cards horizontally */
+    .footer-column:lastchild {
+        /* Stack cards vertically on smaller screens */
+        align-items: left; /* Center cards horizontally */
+        margin-right:20px;
     }
   }
-  
+    @media screen and (max-width: 768px) {
+    .footer-column {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        align-items: left; /* Center cards horizontally */
+    }
+  }
   
   
 
