@@ -25,6 +25,7 @@
     width:90%;
     height:200px;
     min-width: 375px;
+    
 
     
 }
@@ -58,8 +59,8 @@
   
 }
 .logo-and-heading img{
-  width:150px;
-  height:150px;
+  width:100px;
+  height:100px;
   margin-bottom: 30px;
   margin-top:10px;
 
@@ -103,7 +104,9 @@
   display: flex;
   justify-content:center; /* Center the links horizontally */
     margin-bottom:0px;
+    min-height: fit-content;
 }
+.nav-links 
 .nav-links01 {
   display: none;
   justify-content:right;
@@ -193,15 +196,20 @@
     font-weight: bold; /* Optionally, make the font bold */
 }
 .social-links {
+    display:flex;
   position: absolute; /* Set position absolute */
   top: 40px; /* Align to the top */
   right: 15%;
   color:white;
   font-size:small;
   width:20%;
+  min-height: fit-content;
+  
+
    /* Align to the right */
    
 }
+
 .social-links a{
   color:white;
 }
@@ -214,11 +222,28 @@
     
 }
 /* Media query for screens smaller than 768px (typical mobile devices) */
+
 @media screen and (max-width: 768px) {
-  .social-links {
-      display:none;
+    .social-links {
+        display: none; /* Show the overlay on smaller devices */
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1255px) {
+  .nav {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .social-links{
+    flex-direction: row;
+    margin-top: 0px;
+    width:50%;
+  }
+  .logo-and-heading{
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
 }
+
 .close-button {
     position: absolute;
     top: 100px;
@@ -361,7 +386,7 @@
 }
 .aside img {
     width: 100%; /* Make the logo image responsive */
-    max-width: 120px; /* Set a maximum width for the logo */
+    max-width: 80px; /* Set a maximum width for the logo */
     min-width:30px;
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px;
@@ -865,6 +890,7 @@ main {
   background-color:white;
   padding:10px;
   border-radius:10px;
+  min-width: 330px;
 }
 
 .donate-section {
@@ -873,6 +899,7 @@ main {
   width:80%;
   padding:20px;
   border-radius:10px;
+  min-width: 330px;
 }
 
 .donate-button {
@@ -905,6 +932,7 @@ main {
   padding: 20px;
   border-radius: 5px; /* Add subtle border radius */
   width:80%;
+  min-width: 330px;
 }
 
 .contact-info ul {
