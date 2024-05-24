@@ -1081,3 +1081,24 @@ background-color:grey;
 .accordion-button.active .arrow {
     transform: rotate(90deg);
 }
+@media (max-width: 768px) {
+    .accordion-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        min-width: auto;
+        padding: 0 10px;
+    }
+    
+    .accordion-button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .accordion-content {
+        padding: 0 10px;
+    }
+    
+    .accordion-content p {
+        margin: 10px 0;
+    }
+}
