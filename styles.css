@@ -566,6 +566,9 @@
         flex-direction: column; /* Stack cards vertically on smaller screens */
         align-items: center; /* Center cards horizontally */
     }
+      .subscribe-form input[type="email"] {
+          margin-right:20px;
+      }
   }
   
   
