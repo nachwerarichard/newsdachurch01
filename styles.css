@@ -1,4 +1,5 @@
 
+
 @font-face {
     font-family: "Advent Sans"; /* This is the name you'll use to reference the font */
     src: url("AdventSans-Logo.otf") format("woff2"); /* Preferred format for modern browsers */
@@ -348,9 +349,9 @@
   .menu-icon {
      display: block;
       font-size: small; 
-      width:12%;/* Show the overlay on smaller devices */
+      width:30%;/* Show the overlay on smaller devices */
   }
-@media only screen and (max-width: 376px) and (min-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 768px) {
     .menu-icon{
          display: block;
       font-size: small; 
@@ -383,7 +384,7 @@
     top: 0;
     right: 0;
     width: 10%;
-    height: 100vh;
+    height: 100%;
     background-color: #003B5C; /* Starting background color */
     color: #fff;
     padding: 1em;
@@ -540,9 +541,10 @@
   .footer-column {
     flex: 1;
     margin-bottom: 20px;
-    
-    
   }
+.footer-column:last-child{
+    margin-right:50px;
+}
   .footer-column:first-child {
     flex: 2; /* Twice the size of other columns */
   }
@@ -564,8 +566,14 @@
   @media screen and (max-width: 768px) {
     .footer-columns {
         flex-direction: column; /* Stack cards vertically on smaller screens */
-        align-items: center; /* Center cards horizontally */
+        align-items: left; /* Center cards horizontally */
     }
+      .subscribe-form input[type="email"] {
+          margin-right:10px;
+      }
+      .footer-column{
+          align-items:left;
+      }
   }
   
   
