@@ -228,7 +228,7 @@
         display: none; /* Show the overlay on smaller devices */
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1255px) {
+  @media screen and (min-width: 768.1px) and (max-width: 1255px) {
   .nav {
     flex-direction: column;
     margin-bottom: 100px;
@@ -348,7 +348,7 @@
   .menu-icon {
      display: block;
       font-size: small; 
-      width:10%;/* Show the overlay on smaller devices */
+      width:12%;/* Show the overlay on smaller devices */
   }
 @media only screen and (max-width: 376px) and (min-width: 768px) {
     .menu-icon{
