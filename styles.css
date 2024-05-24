@@ -462,11 +462,10 @@
   }
    /* New styles for the section */
    .section-container001 {
-    text-align: left;
+    text-align: center;
     margin-top: 50px; /* Adjust as needed */
     width:80%;
-    margin-left:50px;
-    margin-right:50px;
+    justify-content:center;
     min-width: 330px;
   }
   @media screen and (max-width: 768px) {
