@@ -348,11 +348,12 @@
 
 
 
-@media only screen  and (max-width: 280px) {
+@media only screen  and (max-width: 768px) {
   /* CSS styles for medium devices go here */
     .menu-icon{
         display: block;
-      font-size: small; 
+      font-size: small;
+        width:40%;
       
     }
 }
