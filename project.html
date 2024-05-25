@@ -118,6 +118,59 @@
 
   </script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+$(document).ready(function() {
+  function adjustMenuIcon() {
+    var screenWidth = $(window).width();
+
+    if (screenWidth <= 280) {
+      $('#menu-icon').css('width', '0%');
+    } 
+        
+        else if (screenWidth > 280 && screenWidth <= 290) {
+      $('#menu-icon').css('width', '2%');
+    } 
+    else if (screenWidth > 290 && screenWidth <= 300) {
+      $('#menu-icon').css('width', '5%');
+    } 
+     else if (screenWidth > 300 && screenWidth <= 305) {
+      $('#menu-icon').css('width', '6%');
+    }
+     else if (screenWidth > 305 && screenWidth <= 310) {
+      $('#menu-icon').css('width', '5%');
+    } 
+    else if (screenWidth > 310 && screenWidth <= 320) {
+      $('#menu-icon').css('width', '10%');
+    } 
+    else if (screenWidth > 320 && screenWidth <= 330) {
+      $('#menu-icon').css('width', '10%');
+    } else if (screenWidth > 330 && screenWidth <= 350) {
+      $('#menu-icon').css('width', '20%');
+    } else if (screenWidth > 350 && screenWidth <= 375) {
+      $('#menu-icon').css('width', '30%');
+    } else if (screenWidth > 375 && screenWidth <= 400) {
+      $('#menu-icon').css('width', '30%');
+    } else if (screenWidth > 400 && screenWidth <= 540) {
+      $('#menu-icon').css('width', '40%');
+    } 
+      else if (screenWidth > 540 && screenWidth <= 768) {
+      $('#menu-icon').css('width', '40%');
+    } 
+    else {
+      $('#menu-icon').css('width', 'auto'); // Default width for larger screens
+    }
+  }
+
+  // Initial adjustment
+  adjustMenuIcon();
+
+  // Adjust on window resize
+  $(window).resize(function() {
+    adjustMenuIcon();
+  });
+});
+</script>
+
       <script>
           $(document).ready(function() {
        var $aside = $('#myAside');
