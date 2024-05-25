@@ -346,12 +346,7 @@
   color: #003B5C;
 }
 
-@media only screen and (max-width: 540px) {
-  .menu-icon {
-    display: block;
-    font-size: small;
-  }
-}
+
 
 @media only screen and (min-width: 540px) and (max-width: 768px) {
   /* CSS styles for medium devices go here */
