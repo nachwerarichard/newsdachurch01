@@ -761,7 +761,7 @@ hr {
   text-align: center; /* Center the card horizontally */
   padding: 20px;
   width:93%;
- min-width: 330px;
+ min-width: 375px;
 background-color:grey;
     color: white;
 
@@ -770,7 +770,7 @@ background-color:grey;
   text-align: center; /* Center the card horizontally */
   padding: 20px;
   width:93%;
- min-width: 330px;
+ min-width: 375px;
     color: #003B5C;
 
 }
