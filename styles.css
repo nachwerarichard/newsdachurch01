@@ -766,6 +766,15 @@ background-color:grey;
     color:white;
 
 }
+.one-card-section01 {
+  text-align: center; /* Center the card horizontally */
+  padding: 20px;
+  width:93%;
+ min-width: 330px;
+background-color:grey;
+    color:white;
+
+}
 
 .card03 {
   width: 300px; /* Adjust width as needed */
@@ -831,6 +840,15 @@ background-color:grey;
     flex-direction: column;
     align-items: center;
   }
+    .one-card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+    .one-card-section01 {
+    flex-direction: column;
+    align-items: center;
+  }
+    
   .left-part{
     flex-direction: column;
     align-items: center;
