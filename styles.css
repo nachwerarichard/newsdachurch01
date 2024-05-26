@@ -132,7 +132,7 @@
 
 /* Media query for screens smaller than 768px (typical mobile devices) */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .logo-and-heading {
       display: flex;
       flex-direction: row; /* Hide the navigation links on smaller screens */
@@ -142,7 +142,7 @@
 
   .logo-and-head {
     display: block; /* Hide the navigation links on smaller screens */
-    align-items:center;
+    align-items:left;
 }
   .nav-links01{
     display: block;
